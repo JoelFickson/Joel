@@ -3,7 +3,7 @@ import WelcomeComponent from "../Home/WelcomeComponent";
 
 const Body = () => {
     return (
-        <div className='bodyBackground'>
+        <div className='bodyBackground data-aos="fade-in"'>
 
             <WelcomeComponent/>
 

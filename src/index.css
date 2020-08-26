@@ -9,7 +9,7 @@ p, h1, h2, h3, h4, h5, h6, label, input, strong, a, select, button {
 }
 
 .nav-link {
-    color: #f1f3ef !important;
+    color: #44bcd8 !important;
     font-size: 18px;
 }
 
@@ -21,12 +21,19 @@ p, h1, h2, h3, h4, h5, h6, label, input, strong, a, select, button {
     background-image: linear-gradient(to right bottom, #042f66, #033068, #02316a, #02316d, #01326f);
 }
 
-.BlueColor{
+.BlueColor {
     color: #61dafb;
 }
-.WhiteTextColor{
+
+.WhiteTextColor {
     color: #FFF !important;
 }
-.secondaryColor{
+
+.secondaryColor {
     color: #cabcbc;
+}
+
+.contentNavBar {
+
+    background: #042f66;
 }
