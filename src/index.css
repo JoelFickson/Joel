@@ -8,10 +8,25 @@ p, h1, h2, h3, h4, h5, h6, label, input, strong, a, select, button {
     font-family: 'Baloo Tamma 2', sans-serif !important;
 }
 
-.nav-link{
+.nav-link {
     color: #f1f3ef !important;
     font-size: 18px;
 }
-.nav-brand{
+
+.nav-brand {
     font-size: 20px !important;
+}
+
+.bodyBackground {
+    background-image: linear-gradient(to right bottom, #042f66, #033068, #02316a, #02316d, #01326f);
+}
+
+.BlueColor{
+    color: #61dafb;
+}
+.WhiteTextColor{
+    color: #FFF !important;
+}
+.secondaryColor{
+    color: #cabcbc;
 }

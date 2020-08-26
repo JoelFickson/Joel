@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from "./Navigation/Navbar";
-import WelcomeComponent from "./Home/WelcomeComponent";
+import Body from "./Body/Body";
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
         <>
 
             <Navigation/>
-            <WelcomeComponent/>
+            <Body/>
 
         </>
     );
