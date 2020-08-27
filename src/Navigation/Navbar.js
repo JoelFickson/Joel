@@ -1,5 +1,5 @@
 import React from "react";
-import top from "../Media/t.jpg";
+import top from "../Media/mystory.jpg";
 import {Link} from "react-router-dom";
 
 const Navigation = () => {

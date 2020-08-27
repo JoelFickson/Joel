@@ -12,7 +12,7 @@ import Startups from "./Startups/Startups";
 
 function App() {
     return (
-        <div>
+        <div className='bodyBackground h-100'>
 
 
             <Route exact component={Navigation} path='/'/>
