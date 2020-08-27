@@ -16,12 +16,12 @@ const Navigation = () => {
             >
                 <nav className="navbar navbar-expand-lg navbar-light bg-light transparent">
                     <Link className="navbar-brand" to="#">Joel Here</Link>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse"
+                    <Link to='#' className="navbar-toggler WhiteTextColor" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false"
                             aria-label="Toggle navigation">
-                        <ion-icon className='secondaryColor' name="apps-outline"/>
-                    </button>
+                        <ion-icon className='WhiteTextColor' name="apps-outline"/>
+                    </Link>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto py-1 animate__animated animate__slideInDown contentNavBar">
@@ -63,12 +63,12 @@ const SecondNavbar = () => {
             <div className='shadow contentNavBar'>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light transparent">
                     <Link className="navbar-brand WhiteTextColor" to="/">Joel Here</Link>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse"
+                    <Link to='#' className="navbar-toggler WhiteTextColor" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false"
                             aria-label="Toggle navigation">
-                        <ion-icon className='secondaryColor' name="apps-outline"/>
-                    </button>
+                        <ion-icon className='WhiteTextColor' name="apps-outline"/>
+                    </Link>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto py-1 animate__animated animate__slideInDown contentNavBar">
