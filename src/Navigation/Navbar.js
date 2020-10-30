@@ -1,5 +1,5 @@
 import React from "react";
-import top from "../Media/mystory.jpg";
+import top from "../Media/h.jpg";
 import {Link} from "react-router-dom";
 
 const Navigation = () => {
@@ -7,7 +7,7 @@ const Navigation = () => {
         <>
             <div style={{
                 backgroundImage: `url(${top})`,
-                height: '450px',
+
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
 

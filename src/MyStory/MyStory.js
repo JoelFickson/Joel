@@ -7,7 +7,7 @@ const MyStory = () => {
         <>
             <SecondNavbar/>
 
-            <div className="container">
+            <div className="container __FullHeight">
                 <div className="row">
                     <div className="col-md-5 p-4">
                         <div className="col-md-12">

@@ -158,27 +158,11 @@ const Stacks = () => {
                             <p className=''>
                                 <small>
                                     <ion-icon name="checkmark-outline" className='PrimaryColor'/>
-                                </small>
+                                </small>{" "}
+                                Bloc
 
                             </p>
-                            <p className=''>
-                                <small>
-                                    <ion-icon name="checkmark-outline" className='PrimaryColor'/>
-                                </small>
-                                MongoDB
-                            </p>
-                            <p className=''>
-                                <small>
-                                    <ion-icon name="checkmark-outline" className='PrimaryColor'/>
-                                </small>
-                                Postgresql
-                            </p>
-                            <p className=''>
-                                <small>
-                                    <ion-icon name="checkmark-outline" className='PrimaryColor'/>
-                                </small>
 
-                            </p>
 
                         </div>
                     </div>

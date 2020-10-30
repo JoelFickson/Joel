@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navigation} from "./Navigation/Navbar";
+
 import Body from "./Body/Body";
 import {Route} from "react-router-dom"
 import GetInTouch from "./GetInTouch";
@@ -12,10 +12,10 @@ import Startups from "./Startups/Startups";
 
 function App() {
     return (
-        <div className='bodyBackground h-100'>
+        <div className='bodyBackground __FullHeight'>
 
 
-            <Route exact component={Navigation} path='/'/>
+
             <Route exact component={Body} path='/'/>
             <Route exact component={GetInTouch} path='/get-in-touch'/>
             <Route exact component={GetInTouch} path='/contact'/>
