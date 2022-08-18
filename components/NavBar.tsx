@@ -8,21 +8,23 @@ const Navbar = () => {
 
 
         <div className='flex gap-4 justify-between items-center'>
-
             <Link href='/'>
                 <a className='nav-links'>Home</a>
             </Link>
-            <Link href='/'>
-                <a className='nav-links'>About</a>
+            <Link href='/career'>
+                <a className='nav-links'>Career</a>
             </Link>
-            <Link href='/'>
-                <a className='nav-links'>Creative</a>
+            <Link href='/startups'>
+                <a className='nav-links'>Startups</a>
             </Link>
-            <Link href='/'>
-                <a className='nav-links'>Home</a>
+            <Link href='/writing'>
+                <a className='nav-links'>Writing</a>
+            </Link>
+            <Link href='/community'>
+                <a className='nav-links'>Community</a>
             </Link>
         </div>
-        <Link href='/'>
+        <Link href='/contact'>
             <a className='main-button w-32'>Get In Touch</a>
         </Link>
 

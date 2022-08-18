@@ -1,15 +1,14 @@
 import type {NextPage} from 'next'
 
 import HeroSection from "../components/Hero";
-import Navbar from "../components/NavBar";
+import Wrapper from "../components/Wrapper";
 
 
 const Home: NextPage = () => {
     return (
-        <div className='flex flex-col'>
+        <Wrapper>
 
             <div>
-                <Navbar/>
                 <HeroSection/>
             </div>
             <div
@@ -72,7 +71,7 @@ const Home: NextPage = () => {
                 </p>
             </div>
 
-        </div>
+        </Wrapper>
     )
 }
 
