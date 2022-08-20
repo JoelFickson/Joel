@@ -170,6 +170,12 @@ const Software = () => {
             </VerticalTimeline>
         </div>
 
+        <div className='flex justify-center flex-col items-center p-10'>
+            <h4 className='md:text-xl'>You can be a part of my journey too.</h4>
+            <span className='md:text-2xl'> Talk to me : {" "}<a
+                href="mailto:hello@imjoel.dev" className='text-mainColor-50'>hello@imjoel.dev</a></span>
+        </div>
+
     </Wrapper>
 }
 export default Software;

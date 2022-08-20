@@ -4,20 +4,20 @@ import Link from "next/link";
 import J from "../public/j.jpg";
 
 const HeroSection = () => {
-    return <div className="mx-2.5 bg-slate-400  md:z-50 md:relative h-[200px]" style={{
+    return <div className="mx-2.5 bg-slate-400 z-10 md:z-50 md:relative h-[200px]" style={{
         backgroundImage: `url(bg.svg)`,
         height: "200px",
         backgroundSize: "cover",
     }}>
         <div className="w-2/3 h-[45vh]  flex gap-4 flex-col justify-center items-center">
-            <div className="flex flex-col gap-4">
-                <h4 className="md:text-6xl text-lg font-extrabold ">
+            <div className="flex flex-col gap-6">
+                <h4 className="md:text-6xl text-mainColor  z-0 text-lg extra-bold ">
                     Hello,
                     <br/>
                     My Name is Joel,
                 </h4>
-                <p>
-                    I am a full stack developer and a creative problem solver.
+                <p className='text-xl z-0'>
+                    I am a Full Stack Software Engineer, Startup Enthusiast and Tech Community Aspirant.
                 </p>
                 <Link href="">
                     <a className="main-button">

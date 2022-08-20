@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28d31506-147b-4b53-9755-db52de88b2f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Wrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/career/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/community/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/contact/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/startups/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/writing/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/career.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/adn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/elior.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tecules.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vwaza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vwaza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/career/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/career/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/startups/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/startups/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/bg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -122,7 +124,7 @@
       <updated>1660759453737</updated>
       <workItem from="1660759455877" duration="1317000" />
       <workItem from="1660760778653" duration="123000" />
-      <workItem from="1660760905141" duration="13609000" />
+      <workItem from="1660760905141" duration="19993000" />
     </task>
     <servers />
   </component>

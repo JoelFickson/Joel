@@ -1,3 +1,4 @@
+import {FileCodeIcon, GraphIcon, PencilIcon, PeopleIcon} from "@primer/octicons-react";
 import type {NextPage} from 'next'
 
 import HeroSection from "../components/Hero";
@@ -13,21 +14,34 @@ const Home: NextPage = () => {
             </div>
             <div
                 className='bg-gradient-to-r  p-2  from-slate-100 to-slate-200 h-[10vh] flex gap-4 justify-center items-center mt-[45vh]  md:-rotate-6'>
-                <h4 className='md:text-xl text-sm'>
-                    Software Development
-                </h4>
+                <div className='flex flex-col justify-center text-mainColor items-center gap-2'>
+                    <h4 className='md:text-xl text-sm'>
+                        Software Development
+
+                    </h4>
+                    <FileCodeIcon size={16}/>
+                </div>
                 |
-                <h4 className='md:text-xl text-sm'>
-                    Tech Startups
-                </h4>
+                <div className='flex flex-col justify-center text-mainColor items-center gap-2'>
+                    <h4 className='md:text-xl text-sm'>
+                        Tech Startups
+                    </h4>
+                    <GraphIcon size={16}/>
+                </div>
                 |
-                <h4 className='md:text-xl text-sm'>
-                    Part Time Writer
-                </h4>
+                <div className='flex flex-col justify-center text-mainColor items-center gap-2'>
+                    <h4 className='md:text-xl text-sm'>
+                        Part Time Writer
+                    </h4>
+                    <PencilIcon size={16}/>
+                </div>
                 |
-                <h4 className='md:text-xl text-sm'>
-                    Tech Community Aspirant
-                </h4>
+                <div className='flex flex-col justify-center text-mainColor items-center gap-2'>
+                    <h4 className='md:text-xl text-sm'>
+                        Tech Community Aspirant
+                    </h4>
+                    <PeopleIcon size={16}/>
+                </div>
             </div>
 
             <div className='mt-40 mx-20'>
