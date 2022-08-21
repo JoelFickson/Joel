@@ -1,4 +1,8 @@
-const getRoutes = () => [
+export type routePath = {
+    name: string,
+    path: string,
+}
+const getRoutes = (): routePath[] => [
     {
         name: 'Home',
         path: '/',

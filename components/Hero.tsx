@@ -1,22 +1,22 @@
-import Image from "next/image";
+import {FileCodeIcon, GraphIcon, PencilIcon, PeopleIcon} from "@primer/octicons-react";
 import Link from "next/link";
 
-import J from "../public/j.jpg";
-
 const HeroSection = () => {
-    return <div className="mx-2.5 bg-slate-400 z-10 md:z-50 md:relative h-[200px]" style={{
-        backgroundImage: `url(bg.svg)`,
-        height: "200px",
+    return <div className='flex justify-center items-center md:h-[75vh] h-70' style={{
+        backgroundImage: `linear-gradient(to bottom, rgba(6,47,100, 0.04), rgba(6,47,100, 1)),  url(contact.jpg)`,
         backgroundSize: "cover",
+        backgroundPosition: "top",
+        backgroundRepeat: "no-repeat"
     }}>
-        <div className="w-2/3 h-[45vh]  flex gap-4 flex-col justify-center items-center">
+        <div
+            className="md:grid md:grid-cols-2 flex md:gap-24 md:flex-row flex-col justify-center md:w-2/3 w-full items-center">
             <div className="flex flex-col gap-6">
-                <h4 className="md:text-6xl text-mainColor  z-0 text-lg extra-bold ">
+                <h4 className="md:text-6xl text-slate-800  z-0 text-lg extra-bold ">
                     Hello,
                     <br/>
-                    My Name is Joel,
+                    I Am Joel Fickson
                 </h4>
-                <p className='text-xl z-0'>
+                <p className='text-xl z-0 text-white'>
                     I am a Full Stack Software Engineer, Startup Enthusiast and Tech Community Aspirant.
                 </p>
                 <Link href="">
@@ -26,8 +26,20 @@ const HeroSection = () => {
                 </Link>
             </div>
 
-            <div className="md:absolute w-1/3 md:right-10 md:bottom-0 md:top-10 md:-z-10">
-                <Image layout="responsive" src={J} className="rounded" alt=""/>
+            <div
+                className="grid md:gap-24 gap-12 justify-items-end items-center md:p-10  p-5 md:mb-0 mb-10   md:grid-cols-2 grid-cols-4">
+                <div className='md:h-24 h-16'>
+                    <FileCodeIcon className='text-white md:h-42 h-24'/>
+                </div>
+                <div className='md:h-24 h-16'>
+                    <GraphIcon className='text-white md:h-42 h-24'/>
+                </div>
+                <div className='md:h-24 h-16'>
+                    <PencilIcon className='text-white md:h-42 h-24'/>
+                </div>
+                <div className='md:h-24 h-16'>
+                    <PeopleIcon className='text-white md:h-42 h-24'/>
+                </div>
             </div>
         </div>
     </div>;

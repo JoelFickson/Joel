@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28d31506-147b-4b53-9755-db52de88b2f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/adn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/elior.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tecules.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vwaza.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vwaza.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/j.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/me.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/career/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/career/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/startups/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/startups/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/bg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,26 +70,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "code.cleanup.on.save": "true",
-    "last_opened_file_path": "/Volumes/Work/my-portfolio/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": ".prettierrc.json",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "JavaScript.Libraries",
-    "ts.external.directory.path": "/Volumes/Work/my-portfolio/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Work/my-portfolio/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;.prettierrc.json&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Volumes/Work/my-portfolio/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -124,7 +118,8 @@
       <updated>1660759453737</updated>
       <workItem from="1660759455877" duration="1317000" />
       <workItem from="1660760778653" duration="123000" />
-      <workItem from="1660760905141" duration="19993000" />
+      <workItem from="1660760905141" duration="20985000" />
+      <workItem from="1661103882731" duration="4624000" />
     </task>
     <servers />
   </component>
