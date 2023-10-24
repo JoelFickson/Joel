@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+
+.transparent {
+    background: transparent !important;
+}
+
+p, h1, h2, h3, h4, h5, h6, label, input, strong, a, select, button {
+    font-family: 'Baloo Tamma 2', sans-serif !important;
+}
+
+.nav-link {
+    color: #44bcd8 !important;
+    font-size: 18px;
+}
+
+.nav-brand {
+    font-size: 20px !important;
+}
+
+.bodyBackground {
+    min-height: 100vh !important;
+    background-image: linear-gradient(to left bottom, #0d7492, #4483a5, #6893b6, #88a3c6, #a6b3d5, #aab6d9, #aeb9dd, #b2bce1, #9cb3db, #84aad4, #68a1cc, #4699c3);
+    /*background-color: #1A1746 !important;*/
+    /*background-image: linear-gradient(to right bottom, #042f66, #033068, #02316a, #02316d, #01326f);*/
+}
+
+.BlueColor {
+    color: #61dafb;
+}
+
+.WhiteTextColor {
+    color: #FFF !important;
+}
+
+.secondaryColor {
+    color: #cabcbc;
+}
+
+.PrimaryColor {
+    color: #042f66 !important;
+}
+
+
+.contentNavBar {
+
+    background: #042f66;
+}
+
+.nav-link:hover {
+    color: #FFFFFF !important;
+}
+
+.WhiteBackground {
+    background-color: #ffffff;
+
+}
